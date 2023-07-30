@@ -14,7 +14,7 @@ To test and deploy the smart contract follow the steps below.
 6. To deploy the contract to your `localhost` network do the following:
    - `npx hardhat node`
    - `npx hardhat run --network localhost ./script/deploy.js`
-   - You may be missing this library
+   - You may be missing this library npm install --save-dev @nomicfoundation/hardhat-network-helpers
 
 ## Using the Frontend
 
